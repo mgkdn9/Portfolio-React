@@ -21,7 +21,11 @@ function App() {
           <Modal.Title>Email Me</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <form action="https://formsubmit.co/mkohlberg95@gmail.com" method="POST" encType="multipart/form-data">
+          <form
+            action="https://formsubmit.co/mkohlberg95@gmail.com"
+            method="POST"
+            encType="multipart/form-data"
+          >
             <input type="file" name="attachment"></input>
             <br/>
             <input type="text" name="name" placeholder='Enter your name' required/>
@@ -47,7 +51,12 @@ function App() {
         <a href={Resume} download>
           Download Resume
         </a>
-        <Button onClick={emailModalShow} id="callToActionBtn" variant="primary" size="lg">
+        <Button
+          onClick={emailModalShow}
+          id="callToActionBtn"
+          variant="primary"
+          size="lg"
+        >
           Email Me
         </Button>
         <header>
