@@ -58,7 +58,6 @@ export default function Skills(){
           <b>MongoDB</b>
         </div>
     </div>
-      
-    </div>
+  </div>
   )
 }
