@@ -40,7 +40,7 @@ const About = () => {
         <div className="about-container">
           <div className="about-text">
             <p>
-              Full stack software developer with experience in mechanical and
+              Full stack mobile app developer with experience in mechanical and
               electrical engineering and object oriented PLC programming. My
               career shift into full stack software development was driven by my
               passion and aptitude for coding and my desire to make a lasting
