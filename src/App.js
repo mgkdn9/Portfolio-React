@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div>
-      {/* <Modal show={show} onHide={emailModalClose}>
+      <Modal show={show} onHide={emailModalClose}>
         <Modal.Header closeButton>
           <Modal.Title>Email Me</Modal.Title>
         </Modal.Header>
@@ -46,19 +46,19 @@ function App() {
             Close
           </Button>
         </Modal.Footer>
-      </Modal> */}
+      </Modal>
       <div className="header-container">
         <a href={Resume} download>
           Download Resume
         </a>
-        {/* <Button
+        <Button
           onClick={emailModalShow}
           id="callToActionBtn"
           variant="primary"
           size="lg"
         >
           Email Me
-        </Button> */}
+        </Button>
         <header>
           <h1>MICHAEL KOHLBERG</h1>
           <h2>Software Engineer</h2>
