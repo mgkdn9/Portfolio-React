@@ -48,14 +48,18 @@ function App() {
         </Modal.Footer>
       </Modal>
       <div className="header-container">
-        <a href={Resume} download>
-          Download Resume
-        </a>
+        <Button
+          size="sm"
+          style={{left: "0px", position: "absolute", width: "140px"}}
+        >
+          <a href={Resume} download>
+            Download Resume
+          </a>
+        </Button>
         <Button
           onClick={emailModalShow}
-          id="callToActionBtn"
-          variant="primary"
-          size="lg"
+          size="sm"
+          style={{right: "0px", position: "absolute", width: "140px"}}
         >
           Email Me
         </Button>
