@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 // Internal Resources
 import "./App.css";
-import Resume from "./Resume-MikeKohlberg-2022102.pdf";
+import Resume from "./Resume-MikeKohlberg.pdf";
 import ProjectsCarousel from "./components/ProjectsCarousel";
 import Skills from "./components/Skills";
 import About from "./components/About";
