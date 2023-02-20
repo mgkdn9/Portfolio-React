@@ -25,7 +25,7 @@ export default function ProjectsCarousel() {
   const [autoPlayPokeClone, setAutoPlayPokeClone] = useState(false);
   const [autoPlayKCMOMovers, setAutoPlayKCMOMovers] = useState(false);
   useEffect(() => {
-    setAutoPlayPokeClone(true);
+    setTimeout(() => setAutoPlayPokeClone(true), 5);
   }, []);
   useEffect(() => {
     setTimeout(() => setAutoPlayKCMOMovers(true), 5);
