@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.84f2fb89.css",
-    "main.js": "/static/js/main.6534a23f.js",
+    "main.css": "/static/css/main.9f106422.css",
+    "main.js": "/static/js/main.6733ac92.js",
     "static/media/PokeCloneVid3.mov": "/static/media/PokeCloneVid3.d99074d263ef49a5c1b8.mov",
     "static/media/KCMOMoversVid1.mov": "/static/media/KCMOMoversVid1.6e9e573c61fe2ce37a4f.mov",
     "static/media/ReartVid1.mov": "/static/media/ReartVid1.e13fbcf77d6fdb020e54.mov",
@@ -11,11 +11,11 @@
     "static/media/Resume-MikeKohlberg.pdf": "/static/media/Resume-MikeKohlberg.85b657a9d774e554e5f4.pdf",
     "static/media/Resume-MikeKohlberg-2022102.pdf": "/static/media/Resume-MikeKohlberg-2022102.f8990d057ec4ce023aac.pdf",
     "index.html": "/index.html",
-    "main.84f2fb89.css.map": "/static/css/main.84f2fb89.css.map",
-    "main.6534a23f.js.map": "/static/js/main.6534a23f.js.map"
+    "main.9f106422.css.map": "/static/css/main.9f106422.css.map",
+    "main.6733ac92.js.map": "/static/js/main.6733ac92.js.map"
   },
   "entrypoints": [
-    "static/css/main.84f2fb89.css",
-    "static/js/main.6534a23f.js"
+    "static/css/main.9f106422.css",
+    "static/js/main.6733ac92.js"
   ]
 }
