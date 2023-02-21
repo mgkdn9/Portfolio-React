@@ -49,8 +49,8 @@ function App() {
       </Modal>
       <div className="header-container">
         <Button
-          size="sm"
-          style={{left: "0px", position: "absolute", width: "140px"}}
+          size={window.visualViewport.width>700?"lg":"sm"}
+          style={{left: "0px", position: "absolute", width: window.visualViewport.width>700?"210px":"140px"}}
         >
           <a href={Resume} download>
             Download Resume
@@ -58,8 +58,8 @@ function App() {
         </Button>
         <Button
           onClick={emailModalShow}
-          size="sm"
-          style={{right: "0px", position: "absolute", width: "140px"}}
+          size={window.visualViewport.width>700?"lg":"sm"}
+          style={{right: "0px", position: "absolute", width: window.visualViewport.width>700?"210px":"140px"}}
         >
           Email Me
         </Button>
