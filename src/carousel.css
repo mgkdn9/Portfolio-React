@@ -36,6 +36,7 @@
 }
 .carousel__text__container {
   text-align: center;
+  width: 90%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,6 +53,11 @@
 }
 .video-container {
   display: flex;
+  justify-content: center;
+}
+.video-container video {
+  margin: 5px 0 15px 0;
+  width: 100%;
 }
 .links-container {
   display: flex;

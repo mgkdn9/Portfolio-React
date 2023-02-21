@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 // Internal Resources
 import "./App.css";
-import Resume from "./Resume-MikeKohlberg-2022102.pdf";
+import Resume from "./Resume-MikeKohlberg.pdf";
 import ProjectsCarousel from "./components/ProjectsCarousel";
 import Skills from "./components/Skills";
 import About from "./components/About";
@@ -48,14 +48,18 @@ function App() {
         </Modal.Footer>
       </Modal>
       <div className="header-container">
-        <a href={Resume} download>
-          Download Resume
-        </a>
+        <Button
+          size={window.visualViewport.width>700?"lg":"sm"}
+          style={{left: "0px", position: "absolute", width: window.visualViewport.width>700?"210px":"140px"}}
+        >
+          <a href={Resume} download>
+            Download Resume
+          </a>
+        </Button>
         <Button
           onClick={emailModalShow}
-          id="callToActionBtn"
-          variant="primary"
-          size="lg"
+          size={window.visualViewport.width>700?"lg":"sm"}
+          style={{right: "0px", position: "absolute", width: window.visualViewport.width>700?"210px":"140px"}}
         >
           Email Me
         </Button>
