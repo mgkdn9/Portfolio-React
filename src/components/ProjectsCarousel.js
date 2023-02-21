@@ -22,14 +22,10 @@ export default function ProjectsCarousel() {
   }, 10);
   // state variable required to get some videos to autoPlay
   // not sure why
-  const [autoPlayPokeClone, setAutoPlayPokeClone] = useState(false);
-  const [autoPlayKCMOMovers, setAutoPlayKCMOMovers] = useState(false);
+  const [autoPlayVideos, setAutoPlayVideos] = useState(false);
   useEffect(() => {
-    setTimeout(() => setAutoPlayPokeClone(true), 5);
+    setTimeout(() => setAutoPlayVideos(true), 25);
   }, []);
-  useEffect(() => {
-    setTimeout(() => setAutoPlayKCMOMovers(true), 5);
-  }, [autoPlayPokeClone]);
 
   return (
     <div id="projects__container">
@@ -45,7 +41,7 @@ export default function ProjectsCarousel() {
                   styleLeft={p.styleLeft}
                   description={p.description}
                   video={videos[index]}
-                  autoPlayBool={autoPlayPokeClone}
+                  autoPlayBool={autoPlayVideos}
                   liveLink={p.liveLink}
                   githubRepo={p.githubRepo}
                 />
