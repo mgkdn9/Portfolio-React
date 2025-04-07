@@ -37,7 +37,7 @@ prevButtons.forEach((prevButton) => {
     const prevSlide = currentSlide.previousElementSibling;
     const currentDot = dotsNav.querySelector(".current-slide");
     const prevDot = currentDot.previousElementSibling;
-    const targetIndex = slides.findIndex((slide) => slide === prevSlide);
+    // const targetIndex = slides.findIndex((slide) => slide === prevSlide);
 
     //Move to next slide
     moveToSlide(track, currentSlide, prevSlide);
@@ -53,7 +53,7 @@ nextButtons.forEach((nextButton) => {
     const nextSlide = currentSlide.nextElementSibling;
     const currentDot = dotsNav.querySelector(".current-slide");
     const nextDot = currentDot.nextElementSibling;
-    const targetIndex = slides.findIndex((slide) => slide === nextSlide);
+    // const targetIndex = slides.findIndex((slide) => slide === nextSlide);
 
     //Move to the next slide
     moveToSlide(track, currentSlide, nextSlide);

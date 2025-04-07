@@ -36,12 +36,18 @@ export default function ProjectCard(props) {
           </div>
 
           <div className="links-container">
-            <a className="project-link" target="_blank" href={props.liveLink}>
+            <a
+              className="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={props.liveLink}
+            >
               Try It Out
             </a>
             <a
               className="project-github"
               target="_blank"
+              rel="noopener noreferrer"
               href={props.githubRepo}
             >
               Github Repo
