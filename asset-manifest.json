@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f106422.css",
-    "main.js": "/static/js/main.4f7c1bd3.js",
+    "main.css": "/static/css/main.8e13336f.css",
+    "main.js": "/static/js/main.a9a6c36f.js",
     "static/media/PokeCloneVid3.mov": "/static/media/PokeCloneVid3.d99074d263ef49a5c1b8.mov",
     "static/media/KCMOMoversVid1.mov": "/static/media/KCMOMoversVid1.6e9e573c61fe2ce37a4f.mov",
     "static/media/ReartVid1.mov": "/static/media/ReartVid1.e13fbcf77d6fdb020e54.mov",
     "static/media/AlgoViewsVid1.mov": "/static/media/AlgoViewsVid1.245d4331e867419c6160.mov",
     "static/media/OoIHaveThatVid1.mov": "/static/media/OoIHaveThatVid1.315e6806b1b672948d57.mov",
     "static/media/auroraBlue.gif": "/static/media/auroraBlue.2ff8ef58a9541782c66c.gif",
-    "static/media/Resume-MikeKohlberg.pdf": "/static/media/Resume-MikeKohlberg.85b657a9d774e554e5f4.pdf",
-    "static/media/Resume-MikeKohlberg-2022102.pdf": "/static/media/Resume-MikeKohlberg-2022102.f8990d057ec4ce023aac.pdf",
+    "static/media/Resume-MikeKohlberg.pdf": "/static/media/Resume-MikeKohlberg.bf7c58fd11904d76fa80.pdf",
     "index.html": "/index.html",
-    "main.9f106422.css.map": "/static/css/main.9f106422.css.map",
-    "main.4f7c1bd3.js.map": "/static/js/main.4f7c1bd3.js.map"
+    "main.8e13336f.css.map": "/static/css/main.8e13336f.css.map",
+    "main.a9a6c36f.js.map": "/static/js/main.a9a6c36f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f106422.css",
-    "static/js/main.4f7c1bd3.js"
+    "static/css/main.8e13336f.css",
+    "static/js/main.a9a6c36f.js"
   ]
 }
