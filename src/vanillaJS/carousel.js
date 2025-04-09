@@ -37,7 +37,6 @@ prevButtons.forEach((prevButton) => {
     const prevSlide = currentSlide.previousElementSibling;
     const currentDot = dotsNav.querySelector(".current-slide");
     const prevDot = currentDot.previousElementSibling;
-    // const targetIndex = slides.findIndex((slide) => slide === prevSlide);
 
     //Move to next slide
     moveToSlide(track, currentSlide, prevSlide);
@@ -53,7 +52,6 @@ nextButtons.forEach((nextButton) => {
     const nextSlide = currentSlide.nextElementSibling;
     const currentDot = dotsNav.querySelector(".current-slide");
     const nextDot = currentDot.nextElementSibling;
-    // const targetIndex = slides.findIndex((slide) => slide === nextSlide);
 
     //Move to the next slide
     moveToSlide(track, currentSlide, nextSlide);
@@ -79,3 +77,48 @@ dotsNav.addEventListener("click", (e) => {
   //Show which dot is now current
   updateDots(currentDot, targetDot);
 });
+
+//Move carousel by swiping
+let startX = 0;
+let endX = 0;
+
+track.addEventListener("touchstart", (e) => {
+  startX = e.touches[0].clientX;
+});
+
+track.addEventListener("touchend", (e) => {
+  endX = e.changedTouches[0].clientX;
+  handleSwipe();
+});
+
+function handleSwipe() {
+  if (startX - endX > 50) {
+    nextSlide();
+  } else if (endX - startX > 50) {
+    prevSlide();
+  }
+}
+
+function nextSlide() {
+  const currentSlide = track.querySelector(".current-slide");
+  const nextSlide = currentSlide.nextElementSibling;
+  const currentDot = dotsNav.querySelector(".current-slide");
+  const nextDot = currentDot.nextElementSibling;
+
+  //Move to the next slide
+  moveToSlide(track, currentSlide, nextSlide);
+  //Show which dot is now current
+  updateDots(currentDot, nextDot);
+}
+
+function prevSlide() {
+  const currentSlide = track.querySelector(".current-slide");
+  const prevSlide = currentSlide.previousElementSibling;
+  const currentDot = dotsNav.querySelector(".current-slide");
+  const prevDot = currentDot.previousElementSibling;
+
+  //Move to next slide
+  moveToSlide(track, currentSlide, prevSlide);
+  //Show which dot is now current
+  updateDots(currentDot, prevDot);
+}
