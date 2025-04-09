@@ -12,7 +12,7 @@ const About = () => {
             <p>
               Full stack software developer with experience in mechanical and
               electrical engineering and object oriented PLC programming. My
-              career shift into full stack software development was driven by my
+              career shift into software engineering was driven by my
               passion and aptitude for coding and my desire to make a lasting
               impact. I am comfortable working with many different types of
               people in a wide range of settings. I look forward to tackling
@@ -40,9 +40,9 @@ const About = () => {
         <div className="about-container">
           <div className="about-text">
             <p>
-              Full stack mobile app developer with experience in mechanical and
+            Full stack software developer with experience in mechanical and
               electrical engineering and object oriented PLC programming. My
-              career shift into full stack software development was driven by my
+              career shift into software engineering was driven by my
               passion and aptitude for coding and my desire to make a lasting
               impact. I am comfortable working with many different types of
               people in a wide range of settings. I look forward to tackling
