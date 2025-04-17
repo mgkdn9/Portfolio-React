@@ -13,7 +13,7 @@
       "key": 1,
       "styleLeft": "1211.19px",
       "description": "Brush up on some common sorting algorithms and see them animated on screen. Then test your knowledge when you feel up to it.",
-      "liveLink": "https://algo-views-client.herokuapp.com/",
+      "_liveLink": "https://algo-views-client.herokuapp.com/",
       "githubRepo": "https://github.com/mgkdn9/sorting_algorithm_visualizer"
     },
     {
@@ -21,7 +21,7 @@
       "key": 2,
       "styleLeft": "2422.38px",
       "description": "Peer-to-peer tool sharing platform. Broadcast to users near you whenever you need a tool or any kind of service. See requests from users nearby and help a neighbor out by renting them a tool you already own.",
-      "liveLink": "https://ooihavethat.herokuapp.com/",
+      "_liveLink": "https://ooihavethat.herokuapp.com/",
       "githubRepo": "https://github.com/mgkdn9/OoIHaveThat"
     },
     {
@@ -29,7 +29,7 @@
       "key": 3,
       "styleLeft": "3633.56px",
       "description": "A subscription service delivers artwork right to your door. Tailored to your unique taste in art, season after season.",
-      "liveLink": "https://reart.herokuapp.com/",
+      "_liveLink": "https://reart.herokuapp.com/",
       "githubRepo": "https://github.com/mgkdn9/Re-Art-Client"
     },
     {
@@ -37,7 +37,7 @@
       "key": 4,
       "styleLeft": "4844.75px",
       "description": "Personal company website for marketing purposes as well as coding practice.",
-      "liveLink": "https://KCMOMovers.com/",
+      "_liveLink": "https://KCMOMovers.com/",
       "githubRepo": "https://github.com/mgkdn9/KCMOMoversWebsite"
     }
   ]

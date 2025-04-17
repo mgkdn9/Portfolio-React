@@ -52,7 +52,7 @@ function App() {
           size={window.visualViewport.width>700?"lg":"sm"}
           style={{left: "0px", position: "absolute", width: window.visualViewport.width>700?"210px":"140px"}}
         >
-          <a href={Resume} download>
+          <a href={Resume} download style={{textDecoration: 'none'}}>
             Download Resume
           </a>
         </Button>
