@@ -28,17 +28,17 @@ function App() {
           >
             <input type="file" name="attachment"></input>
             <br/>
-            <input type="text" name="name" placeholder='Enter your name' required/>
+            <input type="text" name="name" placeholder='Enter your name' required style={{width:'100%', margin:'3px 0'}}/>
             <br/>
-            <input type="email" name="email" placeholder='Enter your email' required/>
+            <input type="email" name="email" placeholder='Enter your email' required style={{width:'100%', margin:'3px 0'}}/>
             <br/>
-            <input type="text" name="_subject" placeholder='Enter the subject'></input>
+            <input type="text" name="_subject" placeholder='Enter the subject' style={{width:'100%', margin:'3px 0'}}></input>
             <br/>
-            <textarea name="message" placeholder="Enter your message"></textarea>
+            <textarea name="message" placeholder="Enter your message" style={{width:'100%', margin:'3px 0'}}></textarea>
             <br/>
             <input type="hidden" name="_autoresponse" value="Thank you, I will be with you shortly!"></input>
             <br/>
-            <button type="submit">Send</button>
+            <Button type="submit" variant="primary">Send</Button>
           </form>
         </Modal.Body>
         <Modal.Footer>

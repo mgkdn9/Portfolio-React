@@ -10,13 +10,20 @@ const About = () => {
         <div className="about-container">
           <div className="about-text">
             <p>
-              Full stack software developer with experience in mechanical and
-              electrical engineering and object oriented PLC programming. My
-              career shift into software engineering was driven by my
-              passion and aptitude for coding and my desire to make a lasting
-              impact. I am comfortable working with many different types of
-              people in a wide range of settings. I look forward to tackling
-              your toughest bugs.
+            Hello and thank you for visiting my page! I’m Mike Kohlberg — a
+              full stack software developer with a bachelor’s in Mechanical
+              Engineering and a minor in Computer Science from the University of
+              Missouri, Columbia. I also hold a Fundamentals of Engineering
+              certificate in Electrical & Computer Engineering. To round out my
+              formal education, I completed a software engineering bootcamp with
+              General Assembly — a truly transformative experience that I
+              recommend to people from all backgrounds. Although my academic and
+              professional journey has been diverse, becoming a software
+              engineer has always been my goal. I am driven by my passion and aptitude for
+              coding and my desire to make a lasting impact. I am comfortable
+              working with many different types of people in a wide range of
+              settings. I look forward to tackling your toughest bugs and
+              bringing your wildest ideas to life. 
             </p>
             <br></br>
             <br></br>
@@ -40,13 +47,20 @@ const About = () => {
         <div className="about-container">
           <div className="about-text">
             <p>
-            Full stack software developer with experience in mechanical and
-              electrical engineering and object oriented PLC programming. My
-              career shift into software engineering was driven by my
-              passion and aptitude for coding and my desire to make a lasting
-              impact. I am comfortable working with many different types of
-              people in a wide range of settings. I look forward to tackling
-              your toughest bugs.
+              Hello and thank you for visiting my page! I’m Mike Kohlberg — a
+              full stack software developer with a bachelor’s in Mechanical
+              Engineering and a minor in Computer Science from the University of
+              Missouri, Columbia. I also hold a Fundamentals of Engineering
+              certificate in Electrical & Computer Engineering. To round out my
+              formal education, I completed a software engineering bootcamp with
+              General Assembly — a truly transformative experience that I
+              recommend to people from all backgrounds. Although my academic and
+              professional journey has been diverse, becoming a software
+              engineer has always been my goal. I am driven by my passion and aptitude for
+              coding and my desire to make a lasting impact. I am comfortable
+              working with many different types of people in a wide range of
+              settings. I look forward to tackling your toughest bugs and
+              bringing your wildest ideas to life. 
             </p>
             <br></br>
             <br></br>
