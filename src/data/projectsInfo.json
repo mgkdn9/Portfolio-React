@@ -9,16 +9,8 @@
       "githubRepo": "https://github.com/mgkdn9/PokeClone"
     },
     {
-      "title": "AlgoViews",
-      "key": 1,
-      "styleLeft": "1211.19px",
-      "description": "Brush up on some common sorting algorithms and see them animated on screen. Then test your knowledge when you feel up to it.",
-      "_liveLink": "https://algo-views-client.herokuapp.com/",
-      "githubRepo": "https://github.com/mgkdn9/sorting_algorithm_visualizer"
-    },
-    {
       "title": "OoIHaveThat",
-      "key": 2,
+      "key": 1,
       "styleLeft": "2422.38px",
       "description": "Peer-to-peer tool sharing platform. Broadcast to users near you whenever you need a tool or any kind of service. See requests from users nearby and help a neighbor out by renting them a tool you already own.",
       "liveLink": "https://mgkdn9.github.io/oo-i-have-that/",
@@ -26,12 +18,19 @@
     },
     {
       "title": "Reart",
-      "key": 3,
+      "key": 2,
       "styleLeft": "3633.56px",
       "description": "A subscription service delivers artwork right to your door. Tailored to your unique taste in art, season after season.",
-      "_liveLink": "https://reart.herokuapp.com/",
       "liveLink": "https://mgkdn9.github.io/Re-Art-Client/",
       "githubRepo": "https://github.com/mgkdn9/Re-Art-Client"
+    },
+    {
+      "title": "AlgoViews",
+      "key": 3,
+      "styleLeft": "1211.19px",
+      "description": "Brush up on some common sorting algorithms and see them animated on screen. Then test your knowledge when you feel up to it.",
+      "_liveLink": "https://algo-views-client.herokuapp.com/",
+      "githubRepo": "https://github.com/mgkdn9/sorting_algorithm_visualizer"
     },
     {
       "title": "KCMOMovers Website",
