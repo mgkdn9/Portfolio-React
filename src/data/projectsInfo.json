@@ -29,7 +29,7 @@
       "key": 3,
       "styleLeft": "1211.19px",
       "description": "Brush up on some common sorting algorithms and see them animated on screen. Then test your knowledge when you feel up to it.",
-      "_liveLink": "https://algo-views-client.herokuapp.com/",
+      "liveLink": "https://mgkdn9.github.io/sorting-algorithm-visualizer-frontend",
       "githubRepo": "https://github.com/mgkdn9/sorting_algorithm_visualizer"
     },
     {
