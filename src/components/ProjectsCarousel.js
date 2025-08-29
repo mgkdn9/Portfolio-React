@@ -7,10 +7,10 @@ import OoIHaveThatVid1 from "../videos/OoIHaveThatVid1.mov";
 import ReartVid1 from "../videos/ReartVid1.mov";
 import KCMOMoversVid1 from "../videos/KCMOMoversVid1.mov";
 const videos = [
-  PokeCloneVid3,
   OoIHaveThatVid1,
   ReartVid1,
   AlgoViewsVid1,
+  PokeCloneVid3,
   KCMOMoversVid1,
 ];
 

@@ -1,16 +1,8 @@
 {
   "projects": [
     {
-      "title": "PokeClone",
-      "key": 0,
-      "styleLeft": "0px",
-      "description": "Roam a field of 'tall grass' and survive as many wild Pokemon encounters as you can. Search your favorite Pokemon or encounter them at random. Prepare yourself for the nostalgia that awaits.",
-      "liveLink": "https://mgkdn9.github.io/PokeClone/",
-      "githubRepo": "https://github.com/mgkdn9/PokeClone"
-    },
-    {
       "title": "OoIHaveThat",
-      "key": 1,
+      "key": 0,
       "styleLeft": "2422.38px",
       "description": "Peer-to-peer tool sharing platform. Broadcast to users near you whenever you need a tool or any kind of service. See requests from users nearby and help a neighbor out by renting them a tool you already own.",
       "liveLink": "https://mgkdn9.github.io/oo-i-have-that/",
@@ -18,7 +10,7 @@
     },
     {
       "title": "Reart",
-      "key": 2,
+      "key": 1,
       "styleLeft": "3633.56px",
       "description": "A subscription service delivers artwork right to your door. Tailored to your unique taste in art, season after season.",
       "liveLink": "https://mgkdn9.github.io/Re-Art-Client/",
@@ -26,11 +18,19 @@
     },
     {
       "title": "AlgoViews",
-      "key": 3,
+      "key": 2,
       "styleLeft": "1211.19px",
       "description": "Brush up on some common sorting algorithms and see them animated on screen. Then test your knowledge when you feel up to it.",
       "liveLink": "https://mgkdn9.github.io/sorting-algorithm-visualizer-frontend",
       "githubRepo": "https://github.com/mgkdn9/sorting_algorithm_visualizer"
+    },
+    {
+      "title": "PokeClone",
+      "key": 3,
+      "styleLeft": "0px",
+      "description": "Roam a field of 'tall grass' and survive as many wild Pokemon encounters as you can. Search your favorite Pokemon or encounter them at random. Prepare yourself for the nostalgia that awaits.",
+      "liveLink": "https://mgkdn9.github.io/PokeClone/",
+      "githubRepo": "https://github.com/mgkdn9/PokeClone"
     },
     {
       "title": "KCMOMovers Website",
